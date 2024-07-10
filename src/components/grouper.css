@@ -1,0 +1,53 @@
+.grouper{
+    position: relative;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.grouper-display{
+    padding: 0.5rem 0;
+
+    border: solid 2px var(--gray) ;
+    width: 200px;
+    text-align: center;
+
+    font-weight: 550;
+    font-size: 18px;
+
+    position: relative;
+}
+
+.grouper-display:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+.grouper i{
+    padding: 1.0rem 0;
+}
+
+.grouper-options{
+
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+
+    background-color: var(--gray);
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.label:hover {
+    cursor: pointer;
+}
+
+.label{
+    padding: 0.40rem 0;
+}
+
